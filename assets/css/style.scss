@@ -5,8 +5,12 @@
 
 body, .markdown-body {
   background: #1D1E22;
-  color: #eee;
+  color: #ccc;
   font-size: 18px !important;
+}
+
+a {
+  color: #e90;
 }
 
 .markdown-body h1,
@@ -16,10 +20,11 @@ body, .markdown-body {
 .markdown-body h5,
 .markdown-body h6 {
   border-bottom: 0px !important;
+  color: #fff !important;
 }
 
-a {
-  color: #e90;
+.markdown-body hr {
+  background-color: #ddd !important;
 }
 
 pre, code, .highlighter-rouge {
