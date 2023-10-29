@@ -3,10 +3,10 @@
 
 @import "{{ site.theme }}";
 
-.markdown-body {
+body, .markdown-body {
   background: #1D1E22;
   color: #eee;
-  font-size: 0.8em !important;
+  font-size: 18px !important;
 }
 
 a {
