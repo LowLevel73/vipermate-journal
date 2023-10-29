@@ -1,4 +1,4 @@
-# A journal for the ViperMate chess engine</div>
+# A journal for the ViperMate chess engine
 
 ![Beta cutoffs by move](/images/vipermate-logo.png)
 
