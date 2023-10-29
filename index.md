@@ -1,6 +1,6 @@
-# <div style="display:flex; align-items:center;"><img style="width: 3em; margin: 0.3em;" src="./images/vipermate-logo.png">A journal for the ViperMate chess engine</div>
+# A journal for the ViperMate chess engine</div>
 
-
+![Beta cutoffs by move](/images/vipermate-logo.png)
 
 **ViperMate** is my pet project: developing a **chess engine**.
 
