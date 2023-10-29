@@ -10,7 +10,32 @@ This journal documents the path taken so far.
 
 *Enrico Altavilla*
 
-## Entries
+## Status
+
+Alpha version. Towards the first public release of a beta version.
+
+### Technologies implemented at the moment:
+
+* Alpha-beta search with negamax.
+* Iterative Deepening
+* Transposition Tables
+* Search controllable by external functions
+* Engine modes (benchmark, UCI, etc.)
+* Pruning techniques:
+    * Alpha-beta pruning
+    * Principal Variation Search
+    * Null-Move pruning
+* Move ordering/scoring:
+    * Killer moves
+    * Positional gain of a move
+    * Moves found in transposition tables
+    * MVV-LVA captures (Most Valuable Victim - Least Valuable Attacker)
+* Evaluation function
+    * Incrementally updated at each move
+    * Material balance
+    * Positional balance, from piece-square tables
+
+## Journal entries
 
 [Refactor: search controller and game modes (benchmark, UCI...)](9-search-controller-game-modes.md)
 *October 28, 2023*
