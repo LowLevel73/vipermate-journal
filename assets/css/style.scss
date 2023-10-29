@@ -6,13 +6,13 @@
 body {
   background: #1D1E22;
   color: #eee;
-  font-size: 18px;
+  font-size: 0.8em !important;
 }
 
 a {
-  color: #e90
+  color: #e90;
 }
 
-code {
+code, .highlighter-rouge {
   background: #2D2E32 !important;
 }
