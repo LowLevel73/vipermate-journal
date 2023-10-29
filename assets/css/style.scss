@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-body {
+.markdown-body {
   background: #1D1E22;
   color: #eee;
   font-size: 0.8em !important;
@@ -13,6 +13,6 @@ a {
   color: #e90;
 }
 
-code, .highlighter-rouge {
+pre, code, .highlighter-rouge {
   background: #2D2E32 !important;
 }
