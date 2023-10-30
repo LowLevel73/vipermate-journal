@@ -50,10 +50,10 @@ uint16_t mmv_lva[7][7] = {
 
 ## Results and Observations
 
-* The new values lead to fewer evaluated nodes only by a small amount: about -1.45%. There is no significant speed improvement.
+* The new values lead to fewer evaluated nodes only by a small amount: about -2.26%. There is a slight speed improvement.
 * I have no idea why prioritizing "**bishop takes bishop**" so much (value 1350) resulted in fewer evaluated nodes. All the other values in the diagonal of the table didn't change, which means that other same-piece captures didn't seem to have the same importance.
 * Rook takes Queen" is the type of capture with the highest value. There is a good chance that this is an error in the flawed process I followed.
-* The optimization was done at depth 8 with transposition tables turned off, so the engine searched the tree at each iteration of the iterative deepening cycle. The new values cause a **significant slowdown** for searches done with Transposition Tables turned on, when the actual tree traversal is practically only done for the depth-8 search. This is to be expected: the values found don't work well for situations other than the one tested.
+* The optimization was done at depth 8. The new values cause a **significant slowdown** for searches done with depth 10. This is to be expected: the values found don't work well for situations other than the one tested.
 * An interesting question that has arisen is whether the values should be chosen to generalize well regardless of position, or whether they should **change dynamically** during the search, depending on the depth/ply/position on the board.
 
 ## Final thoughts and next steps
