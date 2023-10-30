@@ -34,3 +34,35 @@ b, strong, i, em {
 pre, code, .highlighter-rouge {
   background: #2D2E32 !important;
 }
+
+.highlight .c1 {
+  color: #0af !important;
+  font-style: italic;
+}
+
+.highlight .n {
+  color: #fc0 !important;
+  font-style: italic;
+}
+
+.highlight .nc {
+  color: #09f !important;
+  font-weight: bold;
+}
+
+.highlight .mi {
+  color: #9d0 !important;
+}
+
+.highlight .kt {
+  color: #b50 !important;
+  font-weight: bold;
+}
+
+.highlight .nb {
+  color: #00A6D3 !important;
+}
+
+.markdown-body blockquote {
+  color: #aab3bd !important;
+}
