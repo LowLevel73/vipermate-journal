@@ -10,9 +10,9 @@ This journal documents the path taken so far.
 
 *Enrico Altavilla*
 
-## Status
+## Status of the chess engine
 
-Alpha version. Towards the first public release of a beta version.
+ViperMate is in its **alpha** stage: the technological backbone is largely implemented. Now it has to learn all the rules of a chess game and how to interact with the outside world. The goal is to release its source code when it becomes a fully functional UCI-compliant engine.
 
 ### Technologies implemented at the moment:
 
