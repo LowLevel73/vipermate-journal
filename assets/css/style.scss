@@ -59,10 +59,20 @@ pre, code, .highlighter-rouge {
   font-weight: bold;
 }
 
+.highlight .k, .highlight .kv {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
 .highlight .nb {
   color: #00A6D3 !important;
 }
 
 .markdown-body blockquote {
   color: #aab3bd !important;
+}
+
+.highlight .o {
+  color: #ffffff !important;
+  font-weight: bold;
 }
