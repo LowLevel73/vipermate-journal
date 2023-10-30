@@ -61,3 +61,7 @@ On the other hand, the UCI mode launches the search **asynchronously**. `search(
 I expect  to create other modes in the future and the new search controlling infrastructure will make their addition easier.
 
 The next steps will be to code the command listening loop in the UCI mode and to add an early exit check in `negamax()`.
+
+---
+
+*ViperMate* chess engine by *Enrico Altavilla*

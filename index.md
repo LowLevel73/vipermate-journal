@@ -37,6 +37,9 @@ Alpha version. Towards the first public release of a beta version.
 
 ## Journal entries
 
+[Silly experiment with parameter optimization for move ordering](10-silly-experiment-parameter-optimization.md)
+*October 30, 2023*
+
 [Refactor: search controller and game modes (benchmark, UCI...)](9-search-controller-game-modes.md)
 *October 28, 2023*
 
