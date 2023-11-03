@@ -37,6 +37,9 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
 
 ## Journal entries
 
+[The design of internal communications and a nasty G++ -O3 optimizer issue](11-design-of-internal-communication-and-optimizer-issue.md)
+*November 3, 2023*
+
 [Silly experiment with parameter optimization for move ordering](10-silly-experiment-parameter-optimization.md)
 *October 30, 2023*
 
