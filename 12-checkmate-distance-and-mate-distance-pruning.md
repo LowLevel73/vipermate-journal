@@ -46,13 +46,13 @@ Here is the current code in ViperMate:
 ```cpp
 // Mate Distance Pruning.
 if (USE_MDP && !(flags & SearchFlag::ROOT_NODE)) {      
-    const int mate_score = MATE - ply;
+    const int mate_score = ply - MATE;
 
-    if (alpha < -mate_score)
-        alpha = -mate_score;
+    if (alpha < mate_score)
+        alpha = mate_score;
 
-    else if (beta > mate_score)
-        beta = mate_score;
+    else if (beta > -mate_score)
+        beta = -mate_score;
 
     if (alpha >= beta)
         return alpha;
