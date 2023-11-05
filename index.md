@@ -20,11 +20,12 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
 * Iterative Deepening
 * Transposition Tables
 * Search controllable by external functions
-* Engine modes (benchmark, UCI, etc.)
+* Engine modes (benchmark, matefinder, etc.)
 * Pruning techniques:
     * Alpha-beta pruning
     * Principal Variation Search
     * Null-Move pruning
+    * Mate Distance Pruning
 * Move ordering/scoring:
     * Killer moves
     * Positional gain of a move
@@ -36,6 +37,9 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
     * Positional balance, from piece-square tables
 
 ## Journal entries
+
+[Checkmate distance and Mate Distance Pruning](12-checkmate-distance-and-mate-distance-pruning.md)
+*November 5, 2023*
 
 [The design of internal communications and a nasty G++ -O3 optimizer issue](11-design-of-internal-communication-and-optimizer-issue.md)
 *November 3, 2023*
