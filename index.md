@@ -1,6 +1,6 @@
 # A journal for the ViperMate chess engine
 
-![ViperMate logo](/images/vipermate-logo-2.png)
+![ViperMate logo](/images/vipermate-logo-3.png)
 
 **ViperMate** is my pet project: developing a **chess engine**.
 
