@@ -20,7 +20,8 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
 * Iterative Deepening
 * Transposition Tables
 * Search controllable by external functions
-* Engine modes (benchmark, matefinder, etc.)
+* Engine modes (benchmark, matefinder, UCI)
+* UCI support
 * Pruning techniques:
     * Alpha-beta pruning
     * Principal Variation Search
@@ -37,6 +38,9 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
     * Positional balance, from piece-square tables
 
 ## Journal entries
+
+[ViperMate gets a UCI interface](13-vipermate-gets-uci-interface.md)
+*November 11, 2023*
 
 [Checkmate distance and Mate Distance Pruning](12-checkmate-distance-and-mate-distance-pruning.md)
 *November 5, 2023*
