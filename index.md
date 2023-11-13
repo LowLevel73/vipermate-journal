@@ -16,17 +16,16 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
 
 ### Technologies implemented at the moment:
 
-* Alpha-beta search with negamax.
+* Alpha-beta search with negamax
+* Quiescence search
 * Iterative Deepening
 * Transposition Tables
 * Search controllable by external functions
 * Engine modes (benchmark, matefinder, UCI)
 * UCI support
 * Pruning techniques:
-    * Alpha-beta pruning
-    * Principal Variation Search
-    * Null-Move pruning
-    * Mate Distance Pruning
+    * In Alpha-beta search: Alpha-beta pruning, Principal Variation Search, Null-Move pruning, Mate Distance Pruning
+    * In Quiescence search: Alpha-beta pruning, Standing-pat check, Delta pruning
 * Move ordering/scoring:
     * Killer moves
     * Positional gain of a move
@@ -38,6 +37,9 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
     * Positional balance, from piece-square tables
 
 ## Journal entries
+
+[The surprising effects of the "default" move ordering](14-surprising-effects-default-move-ordering.md)
+*November 13, 2023*
 
 [ViperMate gets a UCI interface](13-vipermate-gets-uci-interface.md)
 *November 11, 2023*
