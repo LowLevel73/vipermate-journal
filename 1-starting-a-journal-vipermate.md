@@ -20,7 +20,7 @@ The assumption was correct, but after implementing the main blocks of the engine
 
 Also, without being able to search at deeper depths in acceptable times, I was not able to test in a correct way the effectiveness of the optimizations I was implementing: *some optimizations are effective only at deeper depths*.
 
-For this reason I decided to rewrite the engine in C++, which is not a language I love or I'm very familiar with, but it seemed the most reasonable choice, considering that I know a bit of C and the fact that C++ is a language used by many chess engines.
+For this reason I decided to rewrite the engine in C++, which is not a language I love or I'm familiar with, but it seemed the most reasonable choice, considering that I know a bit of C and the fact that C++ is a language used by many chess engines.
 
 An important note about **my main goal**: I'm here to learn and have fun, with no strong goals, expectations or deadlines. I'm guided by what makes me curious, regardless of how good the resulting chess engine will be. So I'll invest time in features and details I'm aware are secondary or will disappear from the code in the future.
 
