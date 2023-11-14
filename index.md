@@ -4,7 +4,7 @@
 
 **ViperMate** is my pet project: developing a **chess engine**.
 
-My only goals are to learn the topics of chess programming and to have fun by concentrating on the activity I like the most: optimizing algorithms and code. The evil practice of premature optimization is welcome here, because this is not a serious project. No expectations, no stress, I just enjoy the journey. This journal documents the path taken so far.
+My only goals are to *learn* the topics of chess programming and to have *fun* by concentrating on the activity I like the most: optimizing algorithms and code. The evil practice of premature optimization is welcome here, because this is not a serious project. No expectations, no stress, I just enjoy the journey. This journal documents the path taken so far.
 
 *Enrico Altavilla*
 
