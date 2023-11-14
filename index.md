@@ -22,7 +22,7 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
 * Engine modes (benchmark, matefinder, UCI)
 * UCI support
 * Pruning techniques:
-    * In Alpha-beta search: Alpha-beta pruning, Principal Variation Search, Null-Move pruning, Mate Distance Pruning
+    * In Alpha-beta search: Alpha-beta pruning, Principal Variation Search, Null-Move pruning, Mate Distance Pruning, Razoring
     * In Quiescence search: Alpha-beta pruning, Standing-pat check, Delta pruning
 * Move ordering/scoring:
     * Killer moves
@@ -35,6 +35,9 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
     * Positional balance, from piece-square tables
 
 ## Journal entries
+
+[Quiescence search is a game-changer (literally)](15-quiescence-search-game-changer.md)
+*November 14, 2023*
 
 [The surprising effects of the "default" move ordering](14-surprising-effects-default-move-ordering.md)
 *November 13, 2023*
