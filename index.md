@@ -22,7 +22,7 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
 * Engine modes (benchmark, matefinder, UCI)
 * UCI support
 * Pruning techniques:
-    * In Alpha-beta search: Alpha-beta pruning, Principal Variation Search, Null-Move pruning, Mate Distance Pruning, Razoring
+    * In Alpha-beta search: Alpha-beta pruning, Principal Variation Search, Null-Move pruning, Mate Distance Pruning
     * In Quiescence search: Alpha-beta pruning, Standing-pat check, Delta pruning
 * Move ordering/scoring:
     * Killer moves
