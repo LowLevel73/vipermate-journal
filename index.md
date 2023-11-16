@@ -36,6 +36,9 @@ ViperMate is in its **alpha** stage: the technological backbone is largely imple
 
 ## Journal entries
 
+[Finalizing the evaluation function and endgames](16-finalizing-evaluation-function-and-endgames.md)
+*November 16, 2023*
+
 [Quiescence search is a game-changer (literally)](15-quiescence-search-game-changer.md)
 *November 14, 2023*
 
